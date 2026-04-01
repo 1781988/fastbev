@@ -1,8 +1,70 @@
-# keep empty placeholder folders only for large runtime artifacts
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# Python cache / build
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+build/
+dist/
+pip-wheel-metadata/
+
+# ------------------------------
+# Env
+# ------------------------------
+.env
+.venv/
+venv/
+env/
+
+# ------------------------------
+# Logs / temp / outputs
+# ------------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# ------------------------------
+# ML artifacts (global)
+# ------------------------------
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.engine
+*.onnx
+*.pkl
+*.npz
+
+# ------------------------------
+# Large runtime folders in this repo
+# Keep folder placeholders only
+# ------------------------------
 Fast-BEV/data/**
 Fast-BEV/work_dir/**
 Fast-BEV/work_dir_lowmem/**
+Fast-BEV/work_dirs/**
 Fast-BEV/pretrained_models/**
+Fast-BEV/output/**
+Fast-BEV/show_dir/**
 
 !Fast-BEV/data/.gitkeep
 !Fast-BEV/work_dir/.gitkeep

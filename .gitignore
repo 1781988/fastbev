@@ -1,0 +1,10 @@
+# keep empty placeholder folders only for large runtime artifacts
+Fast-BEV/data/**
+Fast-BEV/work_dir/**
+Fast-BEV/work_dir_lowmem/**
+Fast-BEV/pretrained_models/**
+
+!Fast-BEV/data/.gitkeep
+!Fast-BEV/work_dir/.gitkeep
+!Fast-BEV/work_dir_lowmem/.gitkeep
+!Fast-BEV/pretrained_models/.gitkeep
